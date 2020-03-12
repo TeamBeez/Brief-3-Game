@@ -5,4 +5,3 @@
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, CppSideScroller, "CppSideScroller" );
  
-//some garbage
