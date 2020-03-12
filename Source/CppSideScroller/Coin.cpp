@@ -15,6 +15,8 @@ ACoin::ACoin()
 	ModifierTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT("ModifierTrigger"));
 	ModifierTrigger->OnComponentBeginOverlap.AddDynamic(this, &ACoin::OnOverlapBegin);
 	RootComponent = ModifierTrigger;
+
+	//Test comment
 }
 
 // Called when the game starts or when spawned
